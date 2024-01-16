@@ -1,0 +1,32 @@
+[
+  {
+    "titolo": "The Dark Side of the Moon",
+    "autore": "Pink Floyd",
+    "anno": 1973
+  },
+  {
+    "titolo": "American Idiot",
+    "autore": "Green Day",
+    "anno": 2004
+  },
+  {
+    "titolo": "Non siamo mica gli americani",
+    "autore": "Vasco Rossi",
+    "anno": 1986
+  },
+  {
+    "titolo": "Nevermind",
+    "autore": "Nirvana",
+    "anno": 1991
+  },
+  {
+    "titolo": "Fallen",
+    "autore": "Evanescence",
+    "anno": 2003
+  },
+  {
+    "titolo": "Brand New Day",
+    "autore": "Sting",
+    "anno": 1999
+  }
+]
