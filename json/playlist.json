@@ -1,38 +1,38 @@
 [
   {
-    "titolo": "The Dark Side of the Moon",
-    "autore": "Pink Floyd",
-    "anno": 1973,
-    "copertina": "data:image/png;base64,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"
+      "titolo": "The Dark Side of the Moon",
+      "autore": "Pink Floyd",
+      "anno": 1973,
+      "copertina": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png"
   },
   {
-    "titolo": "American Idiot",
-    "autore": "Green Day",
-    "anno": 2004,
-    "copertina": "https://upload.wikimedia.org/wikipedia/pt/thumb/3/32/AmericanIdiot.jpg/220px-AmericanIdiot.jpg"
+      "titolo": "American Idiot",
+      "autore": "Green Day",
+      "anno": 2004,
+      "copertina": "https://upload.wikimedia.org/wikipedia/pt/thumb/3/32/AmericanIdiot.jpg/220px-AmericanIdiot.jpg"
   },
   {
-    "titolo": "Siamo solo noi",
-    "autore": "Vasco Rossi",
-    "anno": 1981,
-    "copertina": "https://i.scdn.co/image/ab67616d0000b27374c99fdd0051d6ed3bc284f8"
+      "titolo": "Siamo solo noi",
+      "autore": "Vasco Rossi",
+      "anno": 1981,
+      "copertina": "https://i.scdn.co/image/ab67616d0000b27374c99fdd0051d6ed3bc284f8"
   },
   {
-    "titolo": "Nevermind",
-    "autore": "Nirvana",
-    "anno": 1991,
-    "copertina": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg"
+      "titolo": "Nevermind",
+      "autore": "Nirvana",
+      "anno": 1991,
+      "copertina": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg"
   },
   {
-    "titolo": "Fallen",
-    "autore": "Evanescence",
-    "anno": 2003,
-    "copertina": "https://upload.wikimedia.org/wikipedia/en/2/25/Evanescence_-_Fallen.png"
+      "titolo": "Fallen",
+      "autore": "Evanescence",
+      "anno": 2003,
+      "copertina": "https://upload.wikimedia.org/wikipedia/en/2/25/Evanescence_-_Fallen.png"
   },
   {
-    "titolo": "Brand New Day",
-    "autore": "Sting",
-    "anno": 1999,
-    "copertina": "https://upload.wikimedia.org/wikipedia/en/8/8b/Sting_Brand_New_Day_album_art.JPG"
+      "titolo": "Brand New Day",
+      "autore": "Sting",
+      "anno": 1999,
+      "copertina": "https://upload.wikimedia.org/wikipedia/en/8/8b/Sting_Brand_New_Day_album_art.JPG"
   }
 ]

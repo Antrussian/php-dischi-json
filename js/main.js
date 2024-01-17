@@ -1,11 +1,26 @@
-const { createApp} = Vue
+const { createApp } = Vue;
 
 createApp({
-
-data() {
+  data() {
     return {
-        message:'Hello Vue'
-    }
-}
-    
-}).mount('#app')
+      apiUrl: './server.php',
+      albums: [],
+    };
+  },
+
+  mounted() {
+
+    this.getAlbums();
+  },
+
+  methods: {
+    getAlbums() {
+      axios.get(this.apiUrl)
+        .then(response => {
+        
+          this.albums = response.data;
+        })
+       
+    },
+  },
+}).mount('#app');

@@ -11,31 +11,36 @@
 
 </head>
 <body>
-    
+<div id="app">
+
+        <nav class="navbar navbar-dark bg-dark p-3">
+            <a class="navbar-brand" href="#">
+                <img src="https://cdn-icons-png.flaticon.com/256/2111/2111624.png" width="30" height="30" alt="logo">
+            </a>
+        </nav>
 
 
-<nav class="navbar navbar-dark bg-dark p-3">
-  <a class="navbar-brand" href="#">
-    <img src="https://cdn-icons-png.flaticon.com/256/2111/2111624.png" width="30" height="30" alt="logo">
-  </a>
-</nav>
+
+        <main class="bg-dark p-5">
+
+            <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/pt/thumb/3/32/AmericanIdiot.jpg/220px-AmericanIdiot.jpg" alt="Card image cap">
+                <div class="card-body">
+
+                         <p class="card-text" v-for="(element, index) in albums">
+                           {{ element.titolo }}</p>
+
+                
+
+                 
+               
+
+                </div>
+            </div>
+        </main>
 
 
-
-<main class="bg-dark p-5">
-
-<div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/pt/thumb/3/32/AmericanIdiot.jpg/220px-AmericanIdiot.jpg" alt="Card image cap">
-  <div class="card-body">
-    <p class="card-text">Album</p>
-    <p class="card-text">Autore</p>
-    <p class="card-text">Anno</p>
-  </div>
 </div>
-</main>
-
-
-
 
 
 <script src="./js/main.js"></script>
