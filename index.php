@@ -21,14 +21,15 @@
 
 
 
-        <main class="bg-dark p-5">
+        <main class="bg-dark">
 
             <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/pt/thumb/3/32/AmericanIdiot.jpg/220px-AmericanIdiot.jpg" alt="Card image cap">
-                <div class="card-body">
-
-                         <p class="card-text" v-for="(element, index) in albums">
-                           {{ element.titolo }}</p>
+     
+                <div class="card-body "  v-for="(element, index) in albums">
+                <img class="card-img-top" :src="element.copertina" alt="Card image cap" @click="openModal(album)">
+                         <h2 class="card-text"> {{ element.titolo }}</h2>
+                         <h3 class="card-text"> {{ element.autore }}</h3>
+                         <p class="card-text"> {{ element.anno }}</p>
 
                 
 
